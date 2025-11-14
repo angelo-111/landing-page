@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+    font-family: Roboto, Ubuntu, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .section1 {
     background-color: #1F2937;
 }
@@ -7,15 +14,17 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding-right: 16px;
+    padding: 20px 50px;
 }
 
 ul {
     display: flex;
+    align-items: flex-start;
     list-style: none;
     color: #e5e7eb;
     font-size: 18px;
     gap: 30px;
+    
 }
 
 li {
@@ -28,8 +37,64 @@ a {
     color: #e5e7eb;
 }
 
-img {
-    width: 150px;
-    padding: 16px;
+#pic01 {
+    width: 100px;
+    border-radius: 16px;
 }
 
+.body {
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+
+.body-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.body-left-top {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.body-left-middle {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.body-left button {
+    align-self: flex-start;
+}
+
+button { 
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#pic02 {
+    width: 700px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+p1 {
+    font-size: 36px;
+    font-weight: 900;
+    align-self: center;
+    padding: 50px;
+}
+
+p2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
