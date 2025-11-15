@@ -79,6 +79,7 @@ a {
 #pic02 {
     width: 700px;
     height: auto;
+    border-radius: 12px;
 }
 
 .title {
