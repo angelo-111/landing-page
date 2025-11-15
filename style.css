@@ -39,7 +39,6 @@ a {
 
 #pic01 {
     width: 100px;
-    border-radius: 16px;
 }
 
 .body {
@@ -97,4 +96,9 @@ p2 {
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+img {
+    width: 250px;
+    border-radius: 12px;
 }
