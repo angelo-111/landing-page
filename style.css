@@ -15,7 +15,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 20px 200px;
 }
 
 ul {
@@ -35,14 +35,15 @@ a {
 }
 
 #logo {
-    width: 100px;
+    width: 80px;
     height: auto;
 }
 
 .body {
     display: flex;
-    padding: 50px;
+    padding: 50px 200px;
     gap: 20px;
+    background-color: #1F2937;
 }
 
 .body-left {
@@ -53,21 +54,22 @@ a {
 
 .body-left-top {
     color: #f9faf8;
-    font-size: 48px;
+        font-size: 48px;
     font-weight: 900;
 }
 .body-left-middle {
     color: #e5e7eb;
-    font-size: 18px;
+       font-size: 18px;
 }
 
 .body-left button {
     align-self: flex-start;
 }
 
-button { 
+#b1 { 
     padding: 8px 20px;
     border-radius: 8px;
+    border: 0px;
     background-color: #3882F6;
     color: white;
     font-size: 16px;
@@ -92,6 +94,7 @@ button {
     justify-content: center;
     gap: 30px;
     text-align: center;
+    padding: 50px;
 }
 
 .info {
@@ -102,4 +105,68 @@ img {
     width: 250px;
     height: 150px;
     border-radius: 12px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 50px 300px;  
+    min-width: 500px;
+}
+
+#uppertext {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+#lowertext {
+    text-align: end;
+    font-weight: bold;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+}
+
+.section4-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    width: 500px;
+    height: 100px;
+    padding: 10px 50px;
+}
+
+#utext {
+    font-weight: bold;
+}
+
+#ltext {
+    font-size: 14px;
+}
+
+#b2 { 
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border: solid;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 16px;
 }
